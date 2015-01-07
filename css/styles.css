@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: blue;
+  display: block;
+  min-height: 25%;
+}
+
+nav ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+article, aside {
+  float: left;
+
+}
+article {
+  width: 66%;
+}
+aside {
+  width: 32%
+}
+
+.PostHead {
+  display: block;
+  background-color: white;
+  text-align: center;
+}
+
+.PopularPosts {
+  display: block;
+}
+
+img.PostImage {
+  display: inline-block;
+  width: 23%;
+}
+
+footer {
+  display: block;
+  background-color: blue;
+  min-height: 5%;
+}
