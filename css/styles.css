@@ -1,12 +1,25 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 header {
-  background-color: blue;
+  background-image: url(../images/WaveBackground.jpg);
   display: block;
   min-height: 25%;
+  font-family: 'PT Sans', sans-serif;
+}
+
+header > h1 {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+
+header > h5 {
+  font-size: 12px;
+  text-align: center;
 }
 
 nav ul {
@@ -30,8 +43,33 @@ aside {
   width: 32%
 }
 
+article h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+}
+
+article h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #406DAF;
+
+}
+
+article p {
+  color: #5d6a71;
+}
+
+.AnneMarie {
+  align: center;
+}
+
+img.CircleImage {
+  border-radius: 100%;
+}
+
 .PostHead {
   display: block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
   background-color: white;
   text-align: center;
 }
