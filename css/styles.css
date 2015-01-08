@@ -7,23 +7,26 @@ body {
 header {
   background-image: url(../images/WaveBackground.jpg);
   display: block;
-  min-height: 25%;
+  min-height: 65%;
   font-family: 'PT Sans', sans-serif;
+  padding: 60px;
 }
 
 header > h1 {
   font-size: 60px;
   text-align: center;
   color: white;
+  margin-bottom: 0px;
 }
 
 header > h5 {
   font-size: 12px;
   text-align: center;
+  margin-top: 0px;
 }
 
-nav ul {
-  margin:0;
+header nav ul {
+  margin-top: -50px;
   padding:0;
   list-style-type: none;
 }
@@ -32,38 +35,87 @@ nav li {
   display: inline-block;
 }
 
-article, aside {
-  float: left;
-
+.mainsection {
+  margin: 10px auto;
 }
+article, aside {
+  display: inline-block;
+  vertical-align: top;
+}
+
 article {
-  width: 66%;
+  width: 48%;
+  padding: 0px 5px 2px 5px;
+  margin: 0px 5%;
 }
 aside {
-  width: 32%
+  width: 20%
+  margin: 0px 5%;
+  color:#ABB5C1;
 }
 
 article h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
+  margin-bottom: 1px;
 }
 
 article h2 {
   font-family: 'Open Sans', sans-serif;
   color: #406DAF;
+  font-size: 22px;
 
+}
+
+.buttons.li {
+  display: inline-block;
+  vertical-align: top;
+}
+.NameDate {
+  font-size: 10px;
+  color: #ABB5C1;
+  margin-top: 2px;
+}
+
+.NameDate .CircleImage {
+  width: 4%;
 }
 
 article p {
   color: #5d6a71;
 }
 
-.AnneMarie {
-  align: center;
-}
 
 img.CircleImage {
   border-radius: 100%;
+  width: 17%;
+  align: center;
+
+}
+
+img.CircleImage2 {
+  border-radius: 100%;
+  width: 17%;
+  align: center;
+  margin: 50px 20% 0px 20%;
+
+}
+.SUPImage {
+  width: 45%;
+  margin-top: 50px;
+}
+
+.AboutAd {
+  font-size: 5px;
+}
+
+.SidebarSection {
+  font-size: 10px;
+
+}
+
+aside h4 {
+  color:#406DAF;
 }
 
 .PostHead {
@@ -80,11 +132,15 @@ img.CircleImage {
 
 img.PostImage {
   display: inline-block;
-  width: 23%;
+  vertical-align: top;
+  width: 24%;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 footer {
   display: block;
-  background-color: blue;
+  background-color: #213752;
   min-height: 5%;
 }
