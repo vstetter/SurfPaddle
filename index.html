@@ -11,27 +11,29 @@
 </head>
 
 <body>
-
+<div id="page">
   <!--HEADER-->
 
   <header>
     <nav>
+      <div class="leftnav"><a href="">SURF & PADDLE CO.   BLOG</a></div>
       <ul>
-        <li><a href="">SURF & PADDLE CO. BLOG</a></li>
         <li><a href="">ABOUT</a></li>
         <li><a href="">SEARCH</a></li>
       </ul>
     </nav>
-    <h1>SURF & PADDLE CO.</h1>
-    <h5>An Ironyard Academy Project Est. Fall 2013</h5>
+    <div class="headline">
+      <h1>SURF & PADDLE CO.</h1>
+      <h5>An Ironyard Academy Project Est. Fall 2013</h5>
+    </div>
   </header>
 
 <!--MAIN SECTION-->
 
-  <div class="mainsection">
+
+  <div id="content">
 
 <!--LEFT COLUMN-->
-
     <article>
       <h1>A FANTASTIC ENGAGING HEADLINE GOES HERE</h1>
       <h4 class="NameDate"><img class="CircleImage"src="images/ManinSnow.jpg" alt=".">  on <span>Monday Oct 7th 9:22pm</span></h4>
@@ -43,7 +45,7 @@
         hoppy, priming brewing hop back chocolate malt all-malt caramel malt double bock/dopplebock. cask conditioned ale dunkle; double bock/dopplebock grainy. abbey, " acid rest bacterial,".
         <br>
         </p>
-      <h2>WOAH, THAT'S RADICAL!</h2>
+      <blockquote>WOAH, THAT'S RADICAL!</blockquote>
         <p>
           bottle conditioning brewing lager aau aau barleywine cask. sour/acidic degrees plato caramel malt bitter reinheitsgebot malt. dextrin wheat beer glass bottle conditioning, " acid rest." pint glass, becher hefe hand pump abv trappist. ale alpha acid: acid rest, " brewing lauter tun cask bitter cask conditioned ale."
           <br>
@@ -54,9 +56,9 @@
         </p>
         <nav>
           <ul class="buttons">
-            <li><button name="Comments"><img src="images/CommentsButtonPic.png" alt=""><Read Comments</button></li>
-            <li><button name="ReadLater"><img src="images/ReadLaterButtonPic.png" alt="">Read Later</button></li>
-            <li><button name="Share"><img src="images/ShareButtonPic.png" alt="">Share This Post</button></li>
+            <li id="Comments"><a href=""><img src="images/CommentsButtonPic.png" alt=""><span>Read Comments<span></a></li>
+            <li id="ReadLater"><a href=""><img src="images/ReadLaterButtonPic.png" alt="">Read Later</a></li>
+            <li id="Share"><a href=""><img src="images/ShareButtonPic.png" alt="">Share This Post</a></li>
           </ul>
         </nav>
     </article>
@@ -64,62 +66,67 @@
 <!--RIGHT COLUMN SIDEBAR-->
 
     <aside>
-
-        <img class="CircleImage2"src="images/ManinSnow.jpg" alt=".">
-        <h4>ANNE MARIE</h4>
-        <nav>
+      <div class="asideWrapper">
+        <section class="userInfo">
+        <div><img class="CircleImage2"src="images/ManinSnow.jpg" alt="."></div>
+        <p class="AnneMarieName">ANNE MARIE</p>
+        <div>
           <ul>
-            <li>Twitter</li>
-            <li>Facebook</li>
-            <li>Instagram</li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Instagram</a></li>
           </ul>
-        </nav>
+        </div>
+      </section>
 
-
-        <img class="SUPImage"src="images/SUPGal.jpg" alt=".">
+      <div class="sidebarad">
+        <div><img class="SUPImage"src="images/SUPGal.jpg" alt="."></div>
         <p class="AboutAd"><a href="">About This Ad</a></p>
+      </div>
         <p class="SidebarSection">
-          <h4>SIDEBAR SECTION HEADING</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+          <p id="heading">SIDEBAR SECTION HEADING</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quas praesentium ut quisquam, repellat nam delectus! Reiciendis minima sapiente consequuntur.</p>
           </p>
-
-
+      </div>
     </aside>
 
+</div>
 
 <!--END OF MAIN SECTION-->
 
-  <div>
-    <h2 class="PostHead">MOST POPULAR POSTS</h2>
-  </div>
+  <section id="Posthead">
+    <p><h2>MOST POPULAR POSTS</h2><p>
+  </section>
 
 <!--POPULAR POSTS IMAGES AT BOTTOM-->
 
-  <section class="PopularPosts">
-    <img class="PostImage"src="images/KellySlater.jpg"alt="">
-    <img class="PostImage"src="images/Beer.jpg" alt="">
-    <img class="PostImage"src="images/Zach.jpg" alt="">
-    <img class="PostImage"src="images/LiquorBottles.jpg" alt="">
-  </section>
+  <div class="PopularPosts">
+
+  <div class="CoolPost"><a href=""><p>ANOTHER COOL POST<p></a></div>
+  <div class="PostTitle"><a href=""><p>POST TITLE<p></a></div>
+  <div class="LongerPost"><a href=""><p>HERE'S ANOTHER LONGER POST TITLE<p></a></div>
+  <div class="CoolaPost"><a href=""><p>OH COOLA POST!<p></a></div>
+
+  </div>
 
 <!--FOOTER-->
 
   <footer>
-    <div>
+    <div class="footer-wrapper">
     <img src="images/TIYLogo.jpg" alt="TIY logo">
-    <p>The Ironyard Copyright 2013, All Rights Reserved</p>
+    <div id="copyright">The Ironyard Copyright 2013, All Rights Reserved</div>
     <nav>
       <ul>
-        <li><a href=""></a>Nav Item 1</li>
-        <li><a href=""></a>Nav Item 2</li>
-        <li><a href=""></a>Nav Item 3</li>
-        <li><a href=""></a>Nav Item 4</li>
+        <li><a href="">Nav Item 1</a></li>
+        <li><a href="">Nav Item 2</a></li>
+        <li><a href="">Nav Item 3</a></li>
+        <li><a href="">Nav Item 4</a></li>
       </ul>
     </nav>
     </div>
   </footer>
 
-
+</div>
 </body>
 
 </html>
